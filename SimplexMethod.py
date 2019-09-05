@@ -1,35 +1,13 @@
 #Simplex Method
-from prettytable import PrettyTable
 #Input z
 print('z = ', end='')
 z = list(map(int, input().split()))
-##z = [5, 2, 7]
-##z = [3, 9]
-##z = [5, 3]
-##z = [7, 5]
-##z = [3, 5]
-##z = [6, 3]
-##print(z)
 nz = len(z)
 
 #Input Equations
 print('Enter Number of Equations: ', end='')
 n = int(input())
 e = []
-##e = [[1, 1, 2, 22],
-##[3, 2, 1, 26],
-##[1, 1, 1, 18]]
-##e = [[1, 4, 8],
-##     [1, 2, 4]]
-##e = [[1, 1, 2],
-##     [5, 2, 10],
-##     [3, 8, 12]]
-##e = [[1, 1, 6],
-##     [4, 2, 12]]
-##e = [[2, 4, 25],
-##     [1, 1, 13]]
-##e = [[2, 2, 8],
-##     [3, 3, 18]]
 for _ in range(n):
   e.append(list(map(int, input().split())))
 ##print(e)
